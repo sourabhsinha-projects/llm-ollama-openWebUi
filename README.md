@@ -73,13 +73,13 @@ Open WebUI now includes some GPU accelerated features, like the document embembi
 
     docker compose up -d
 
-## Use this if you want to remove old services
-    docker compose up -d --remove-orphans
-
 ## Optional 
 To activate WSL Server Mode to allow external connections to Ollama and OpenWebUI, follow instructions at https://fixtse.com/blog/ollama-home-assistant#activate-wsl-server-mode
 
-# How to update it
+### Use this if you want to remove old services
+    docker compose up -d --remove-orphans
+
+### How to update it
 
     docker compose pull
     docker compose up --force-recreate -d
