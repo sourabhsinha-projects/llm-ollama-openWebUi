@@ -46,10 +46,10 @@ Then just use the corresponding command from the How to run it section, and dock
 # Ollama Only
 
 ## CPU
-    wget -O docker-compose.yaml  https://raw.githubusercontent.com/fixtse/blueprints/main/docker/docker-compose-ollama-cpu-only.yaml
+    wget -O docker-compose.yaml  https://github.com/sourabhsinha-projects/llm-ollama-openWebUi/blob/main/docker/docker-compose-ollama-cpu.yaml
 
 ## Ollama
-    wget -O docker-compose.yaml  https://raw.githubusercontent.com/fixtse/blueprints/main/docker/docker-compose-ollama-gpu.yaml
+    wget -O docker-compose.yaml  https://github.com/sourabhsinha-projects/llm-ollama-openWebUi/blob/main/docker/docker-compose-ollama-gpu.yaml
 
 # OpenWebUI Only
 
@@ -64,10 +64,10 @@ Open WebUI now includes some GPU accelerated features, like the document embembi
 # OpenWebUI + Ollama
 
 ## CPU
-    wget -O docker-compose.yaml  https://raw.githubusercontent.com/fixtse/blueprints/main/docker/docker-compose-ollama.yaml
+    wget -O docker-compose.yaml  https://github.com/sourabhsinha-projects/llm-ollama-openWebUi/blob/main/docker/docker-compose-ollama-webui-cpu.yaml
 
 ## GPU
-    wget -O docker-compose.yaml  https://raw.githubusercontent.com/fixtse/blueprints/main/docker/docker-compose-ollama-webui-gpu.yaml
+    wget -O docker-compose.yaml  https://github.com/sourabhsinha-projects/llm-ollama-openWebUi/blob/main/docker/docker-compose-ollama-webui-gpu.yaml
 
 # How to run
 
